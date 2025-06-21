@@ -85,6 +85,9 @@ async def gucast(client: Client, message: Message):
         f"**Successfully Sent Message To** `{done}` **chat, Failed to Send Message To** `{error}` **chat**"
     )
 
+@Client.on_message(
+    filters.command(["addbl"], ".") & (filters.me | filters.user(SUDO_USER))
+)
 
 add_command_help(
     "broadcast",
