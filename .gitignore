@@ -13,3 +13,5 @@ bot.session-journal
 *.raw
 *.jpg
 *.tmp
+.env
+venv
