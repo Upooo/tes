@@ -1,128 +1,103 @@
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<p align="center">𝐙𝐚𝐢𝐝 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 🔥 </p>
+
+- A First Telegram Userbot Project With Multi Clients Based On PyroGram
+
+<p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://telegra.ph/file/723d8ef9fb7e721135221.jpg" width="300"></a></p>
 <p align="center">
-  <img src="https://telegra.ph//file/19b336da463a05d7d8f8c.jpg" alt="Mix Logo">
-</p>
-<h1 align="center">
-  <b>Mix Userbot</b>
-</h1>
+    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
-<b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Pyrogram
+## Repo Stats
 
-Support Multi Language, If You want more language Contact Me On Telegram.</b>
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=ITZ-ZAID&repo=ZAID-USERBOT&theme=dark)
 
 
-[![Last Commit](https://img.shields.io/github/last-commit/naya1503/Mix-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge)](https://github.com/naya1503/Mix-Userbot/commits)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/naya1503/Mix-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/naya1503/Mix-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/naya1503/Mix-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/naya1503/Mix-Userbot?&logo=github)](https://github.com/naya1503/Mix-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/naya1503/Mix-Userbot?&logo=github)](https://github.com/naya1503/Mix-Userbot/stargazers)
-----
+## Requirements 
 
-## Disclaimer
+- PyroGram Session
+- Dummy account
+- Python 3.8+ or 3.7
+- [Mongo Db](https://youtu.be/mnvjt_a5JYA)
 
+## String Session
+
+<p align="center"><a href="https://replit.com/@Itz-zaid/pyrogram"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+
+
+## 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓𝐒
+
+ᴛᴏ ʙᴇ ꜱᴀꜰᴇ ꜰᴏʀᴋ ᴛʜɪꜱ ʀᴇᴘᴏ ᴀɴᴅ ᴛʜᴇɴ ᴘʀᴇꜱꜱ ᴅᴇᴘʟᴏʏ ʙᴜᴛᴛᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ꜰᴏʀᴋᴇᴅ ʀᴇᴘᴏ 
+
+[ꜰᴏʀᴋ ᴅᴇᴘʟᴏʏ ɪꜱ ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅᴇᴅ](https://telegra.ph/file/5bcf79f948ca06030640c.mp4)
+
+<p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/Itz-Zaid/Zaid-Userbot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+## Features 
+
+- **Spamming!**
+- **You Can deploy Upto 10 Clients At a Same Time**
+- **Almost 90+ Plugins There adding more Plugins Soon**
+- **Id Safety Specially For Fake accounts**
+
+
+## Deploy To Render 
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ITZ-ZAID/ZAID-USERBOT)
+
+## Hosting With Mogenius 
+
+I will suggest to host on mogenius if uh don't know what is this then 
+Checkout Tutorial!
+<p align="center"><a href="https://youtu.be/qXT1jl60okk"> <img src="https://img.shields.io/badge/ZaidUserBot%20Deploy-black?style=for-the-badge&logo=youtube" width="220" height="38.45"/></a></p>
+
+
+## VPS/Locally deploy!
+```console
+Zaid@Debian~ $ apt-get -y update
+Zaid@Debian~ $ apt-get -y install git gcc python3-pip -y
+Zaid@Debian~ $ git clone https://github.com/ITZ-ZAID/ZAID-USERBOT
+Zaid@Debian~ $ cd ZAID-USERBOT
+Zaid@Debian~ $ pip3 install -U -r requirements.txt
+Zaid@Debian~ $ cp sample.env .env
+Zaid@Debian~ $ nano .env
 ```
-Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
-Bot ini dimaksudkan untuk bersenang-senang sekaligus membantu anda
-mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
-Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak.
+
+<h3 align="center">
+   Edit <b>.env</b> with your own values and Run Bot
+</h3>
+
+```console
+Zaid@Debian~ $ screen
+Zaid@Debian~ $ python3 -m Zaid
 ```
 
-# DATABASE REQUIRETMENTS :
-- MONGODB
+## Disclaimer 
 
 
-<details>
-<summary><b>🔗 Deploy Metode Screen</b></summary>
-<br>
+```console
+      ⚠️ WARNING FOR YOU ⚠️
+       Your Telegram account may get banned.
+   I am not responsible for any improper use of this bot
+This bot is intended for the purpose of having fun with memes,
+      as well as efficiently managing groups.
+You ended up spamming groups, getting reported left and right,
+and you ended up in a Finale Battle with Telegram and at the end
+       Telegram Team deleted your account?
+  And after that, then you pointed your fingers at us
+        for getting your acoount deleted?
+    I will be rolling on the floor laughing at you.
+```
 
-• `sudo apt-get update && sudo apt-get upgrade -y`
+## Credits 💖
+- Zect Userbot
+- Man
+- pyrogram
+- xyz ⚡
 
-• `sudo pip3 install -U pip`
+## Support / Channel
 
-• `sudo apt-get install python3-pip ffmpeg -y`
+<p align="center">𝐒𝐮𝐩𝐩𝐨𝐫𝐭 / 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ----> </p>
 
- • `git clone https://github.com/naya1503/Mix-Userbot`
-
- • `cd Mix-Userbot`
-
- • `pip3 install -r req*`
-
- • `cp .env.sample .env`
-
- • `nano .env`
- 
- • Silakan isi vars yang diperlukan api_id, api_hash, session, heroku_api, heroku_app_name, mongo_uri, db_name, scheme, hostname, port, username dan password jika butuh.
-
-  - Jika sudah 
-  - ketik ctrl + S
-  - ctrl + X
-
- • `screen -S mix`
-
- • `bash start`
-
-</details>
-
-<details>
-<summary><b>🔗 Deploy Metode Docker</b></summary>
-<br>
-
-• `curl -sSL https://get.docker.com | sh`
-
- • `git clone https://github.com/naya1503/Mix-Userbot`
-
- • `cd Mix-Userbot`
-
- • `cp .env.sample .env`
-
- • `nano .env`
- 
- • Silakan isi vars yang diperlukan api_id, api_hash, session, heroku_api, heroku_app_name, mongo_uri, db_name, scheme, hostname, port, username dan password jika butuh.
-
-  - Jika sudah 
-  - ketik ctrl + S
-  - ctrl + X
-
- • `docker build . -t mix`
-
- • `docker run --name namalu --env-file .env -d -t mix`
-
-</details>
-
-<details>
-<summary><b>🔗 Deploy on Heroku</b></summary>
-<br>
-• Silakan isi vars yang diperlukan api_id, api_hash, session, heroku_api, heroku_app_name, mongo_uri, db_name, scheme, hostname, port, username dan password jika butuh.
-
-<h3 align="center">Click The Button</h3>
-<a align="center" href="https://dashboard.heroku.com/new?template=https://github.com/naya1503/Mix-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
-</div>
-
-</details>
-
-
-## © Credits & Thanks For
-* [TeamUltroid](https://github.com/TeamUltroid) for [Ultroid](https://github.com/TeamUltroid/Ultroid)
-* [DevsExpo](https://github.com/DevsExpo) for [FridayUB](https://github.com/DevsExpo/FridayUserBot)
-* [MarshalX](https://github.com/MarshalX) for [Tgcalls](https://github.com/MarshalX/tgcalls)
-* [Risman](https://github.com/mrismanaziz) for [Pyro-Man](https://github.com/mrismanaziz/Pyro-Man)
-* [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
-* [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-* [Kynan](https://github.com/naya1503) for [Mix-Userbot](https://github.com/naya1503/Mix-Userbot)
-* [Lucifer](https://github.com/jonesroot) for [BugHunter](https://t.me/LuciferBukanRobot)
-* [TheHamkerCat](https://github.com/TheHamkerCat) for [WilliamButcherBot](https://github.com/TheHamkerCat/WilliamButcherBot)
-* [Yasir Aris M](https://github.com/yasirarism) for [MissKatyPyro](https://github.com/yasirarism/MissKatyPyro)
-* [Captain D. Ezio](https://github.com/iamgojoof6eyes) for [Gojo_Satoru](https://github.com/Gojo-Bots/Gojo_Satoru)
-
-
-
-
-## Maintained By
-* [![Kynan.](https://img.shields.io/static/v1?label=Ky&message=nan&color=critical)](https://t.me/kenapanan)
-
-
-
-
-# License
-[![License](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE)   
-Mix-Userbot is licensed under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) v3 or later.
+<p align="center"><a href="https://t.me/TheSupportChat"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐒𝐮𝐩𝐩𝐨𝐫𝐭-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
+<p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐔𝐩𝐝𝐚𝐭𝐞𝐬-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>

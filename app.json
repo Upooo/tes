@@ -1,56 +1,34 @@
 {
-    "name": "Mix UserBot",
-    "description": "Mix Userbot Dibuat Untuk String Pyrogram Untuk ID 5 Pasti Aman.",
-    "logo": "https://telegra.ph//file/19b336da463a05d7d8f8c.jpg",
-    "keywords": [
-        "Pyrogram",
-        "Userbot"
-    ],
-    "repository": "https://github.com/naya1503/Mix-Userbot",
-    "success_url": "https://t.me/kenapanan",
-    "stack": "container",
+    "name": "Zaid Userbot",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/ITZ-ZAID/Zaid-Userbot",
+  "stack": "container",
     "env": {
-        "api_id": {
-            "description": "Au ya cek my.telegram.org",
+        "STRING_SESSION1": {
+            "description": "fill with the telethon session string from https://replit.com/@Itz-zaid/Generator",
             "required": true
         },
-        "api_hash": {
-            "description": "Au ya cek my.telegram.org",
-            "required": true
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": ""
         },
-        "session": {
-            "description": "Silakan isi Pyrogram V2",
-            "required": true
+        "SUDO_USERS": {
+            "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
+            "required": true,
+            "value": "1234567890 1234567890"
         },
-        "mongo_uri": {
-            "description": "Silakan isi Mongo Db/Mongo Url . Jika Build Redis Gagal . Cara ambil nya ketik #mongo di @kynansupport.",
-            "required": true
+        "OWNER_ID": {
+            "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
+            "required": true,
+            "value": "1234567890"
         },
-        "db_name": {
-            "description": "Silakan isi DB_NAME. Isi aja : MixDB",
-            "required": true
-        },
-        "heroku_api": {
-            "description": "Isi Coy Jan Dikosongin.",
-            "required": true
-        },
-        "heroku_app_name": {
-            "description": "Isi Coy Jan Dikosongin",
-            "required": true
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
         }
-    },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
     }
-  ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "basic"
-        }
-    }
-}
+  }

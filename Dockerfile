@@ -1,29 +1,9 @@
-FROM python:3.9
-
-RUN apt-get update -y && apt-get upgrade -y && \
-    apt-get install -y --no-install-recommends \
-        wget \
-        git \
-        ffmpeg \
-        build-essential \
-        pkg-config \
-        neofetch \
-        apt-utils \
-        libmediainfo0v5 \
-        libavformat-dev \
-        libavcodec-dev \
-        libavdevice-dev \
-        libavutil-dev \
-        libavfilter-dev \
-        libswscale-dev \
-        libswresample-dev && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
-
+FROM python:3.9.7-slim-buster
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install git curl python3-pip ffmpeg -y
+RUN pip3 install -U pip
+RUN python3 -m pip install --upgrade pip
 COPY . /app/
 WORKDIR /app/
-
-RUN pip3 install -U pip && \
-    pip3 install --no-cache-dir -r requirements.txt
-
-CMD ["bash", "start"]
+RUN pip3 install -U -r requirements.txt
+CMD ["bash","start.sh"]

@@ -1,32 +1,33 @@
+import os
 from os import getenv
-
 from dotenv import load_dotenv
 
-load_dotenv()
+if os.path.exists(".env"):
+    load_dotenv(".env")
 
-api_id = int(getenv("api_id", None))
-api_hash = getenv("api_hash", None)
-session = getenv("session", None)
-bot_token = getenv("bot_token", None)
-db_name = getenv("db_name", None)
-mongo_uri = getenv("mongo_uri", None)
-def_bahasa = getenv("def_bahasa", "toxic")
-log_pic = getenv("log_pic", "https://telegra.ph//file/43cec0ae0ded594b55247.jpg")
-heroku_api = getenv("heroku_api")
-heroku_app_name = getenv("heroku_app_name")
-upstream_repo = getenv(
-    "upstream_repo",
-    "https://github.com/naya1503/Mix-Userbot",
-)
-upstream_branch = getenv("upstream_branch", "final")
-git_token = getenv("git_token", None)
-log_channel = getenv("log_channel", None)
-genius_api = getenv(
-    "genius_api",
-    "zhtfIphjnawHBcLFkIi-zE7tp8B9kJqY3xGnz_BlzQM9nhJJrD7csS1upSxUE0OMmiP3c7lgabJcRaB0hwViow",
-)
-# scheme = getenv("scheme", None)
-# hostname = getenv("hostname", None)
-# port = int(getenv("port", None))
-# username = getenv("username", None)
-# password = getenv("password", None)
+
+API_ID = int(getenv("API_ID", 6435225)) #optional
+API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d") #optional
+
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", 7500830844).split()))
+OWNER_ID = int(getenv("OWNER_ID", 7500830844))
+MONGO_URL = getenv("MONGO_URL")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
+ALIVE_TEXT = getenv("ALIVE_TEXT")
+PM_LOGGER = getenv("PM_LOGGER")
+LOG_GROUP = getenv("LOG_GROUP")
+GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
+REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
+BRANCH = getenv("BRANCH", "master") #don't change
+ 
+STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION2 = getenv("STRING_SESSION2", "")
+STRING_SESSION3 = getenv("STRING_SESSION3", "")
+STRING_SESSION4 = getenv("STRING_SESSION4", "")
+STRING_SESSION5 = getenv("STRING_SESSION5", "")
+STRING_SESSION6 = getenv("STRING_SESSION6", "")
+STRING_SESSION7 = getenv("STRING_SESSION7", "")
+STRING_SESSION8 = getenv("STRING_SESSION8", "")
+STRING_SESSION9 = getenv("STRING_SESSION9", "")
+STRING_SESSION10 = getenv("STRING_SESSION10", "")
